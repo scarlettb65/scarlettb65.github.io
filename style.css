@@ -1,17 +1,24 @@
 body {
-    background: #f0f8ff;
+    background-color: #ffebef; /* Light pink */
+    color: #006400;            /* Dark green */
     font-family: Arial, sans-serif;
-    margin: 30px;
+    padding: 20px;
+    line-height: 1.6;
 }
 
-h1 {
-    color: #2a52be;
+h1, h2, h3 {
+    color: #004d00; /* Slightly darker green for headings */
     text-align: center;
 }
 
+p {
+    font-size: 1.1em;
+}
+
 .about, .skills, .projects, .contact {
-    background: #e6f7ff;
+    background-color: #ffe6ee;
     padding: 15px;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 100, 0, 0.1);
 }
